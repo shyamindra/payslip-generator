@@ -68,8 +68,8 @@ public class Employee {
 	}
 
 	/*
-			Verify the input salary and throw a runtime exception if the salary is invalid
-		 */
+		Verify the input salary and throw a runtime exception if the salary is invalid
+	 */
 	public void validateAnnualSalary(){
 		if(this.annualSal <= 0) {
 			throw new RuntimeException("Invalid Salary : Please verify the input details");

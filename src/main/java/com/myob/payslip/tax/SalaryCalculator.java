@@ -11,7 +11,9 @@ public class SalaryCalculator {
 
 	private List<TaxSlab> taxSlabList;
 
-	// Assumption: the max salary would not exceed Long.MAX_VALUE, unless it's Bezos
+	/*
+	 	Assumption: the max salary would not exceed Long.MAX_VALUE, unless it's Bezos
+	 */
 	public SalaryCalculator(){
 		taxSlabList = new ArrayList<>(){{
 			add(new TaxSlab(0, 18200, 0, 0));
